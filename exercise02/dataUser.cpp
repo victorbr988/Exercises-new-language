@@ -17,6 +17,4 @@ int main(int argc, char** argv){
   printf("Nome: %s \n", nome);
   printf("Endereco: %s \n", endereco);
   printf("Idade: %d", idade);
-
-  return 0;
 }
