@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
 
   salary_liquid = salary - inss - ir;
 
-  printf("Desconto do Inss %f \n", inss);
-  printf("Desconto de IR %f \n", ir);
-  printf("Seu salário liquido é de %f", salary_liquid);
+  printf("Desconto do Inss %2.f \n", inss);
+  printf("Desconto de IR %2.f \n", ir);
+  printf("Seu salário liquido é de %2.f", salary_liquid);
 }

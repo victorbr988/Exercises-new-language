@@ -16,16 +16,16 @@ int main(int argc, char ** argv) {
   printf("Nota da terceira unidade: ");
   scanf("%f", &nota3);
 
-  printf("Nota da quarta unidade: ");
+  printf("Nota da quarta unidade: \n");
   scanf("%f", &nota4);
 
   media = (nota1 + nota2 + nota3 + nota4) / 4;
   
-  if(media > 7) {
+  if(media >= 7) {
     printf("Você está aprovado \n");
   }
   else {
     printf("Você está reprovado \n");
   }
-  printf("A sua média é %f", media);
+  printf("A sua média é %2.f", media);
 }
